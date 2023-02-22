@@ -27,4 +27,21 @@ public void titleCheckGoogle() throws MalformedURLException
 	
 	
 }
+@Test
+public void titleCheckGoogle1() throws MalformedURLException
+{
+	
+	//WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.139:4444"), caps);
+	MutableCapabilities caps = new MutableCapabilities();
+	
+	WebDriver driver = new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"),caps);
+	driver.get("https://rahulshettyacademy.com");
+    Assert.assertTrue(driver.getTitle().matches("Rahul Shetty Academy"));
+    System.out.println("Added code through develop branch after cloning the test -titleCheckGoogle1()"); 
+    
+
+	
+	
+	
+}
 }
