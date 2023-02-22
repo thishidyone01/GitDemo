@@ -9,7 +9,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestDemo {
+public class TestDemo3 {
 	
 	
 @Test
