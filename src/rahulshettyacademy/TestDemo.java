@@ -33,5 +33,14 @@ public void titleCheck() throws MalformedURLException
 public void WebActivity()
 {
 	System.out.println("New test added by new architect");
+	
+	
 }
+@Test
+public void WebActivity1()
+{
+	System.out.println("New test added by american team architect");
+	//Note: this kind of example of architect and american team architect is used to differentiate on how the git code can be used and changes can be tracked for the code added by different users
+}
+
 }
